@@ -11,7 +11,7 @@ import torch
 import torchaudio
 # torch.set_num_threads(1)
 
-from TTS.tts.layers.xtts.tokenizer import multilingual_cleaners
+from TTS.tts.layers.xtts.tokenizer import multilingual_cleaners, basic_cleaners
 
 torch.set_num_threads(16)
 
